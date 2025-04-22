@@ -5,7 +5,7 @@
 This project explores the price dynamics of Bitcoin using Python. It aims to understand short- and long-term market behavior through a wide range of technical indicators and volatility metrics. This analysis helps reveal potential entry/exit signals and assess overall market sentiment and risk.
 Future stages will include machine learning-based forecasting and Power BI visualizations to deliver a complete end-to-end financial analysis pipeline.
 
-Note: Signals in this project are not financial advices.
+Note: Signals in this project are not financial advices. Trade at your own risk.
 
 ---
 
