@@ -1,6 +1,6 @@
-# 📊 Bitcoin Price Analysis with Python
+#  Bitcoin Price Analysis with Python
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project explores the price dynamics of Bitcoin using Python. It aims to understand short- and long-term market behavior through a wide range of technical indicators and volatility metrics. This analysis helps reveal potential entry/exit signals and assess overall market sentiment and risk.
 Future stages will include machine learning-based forecasting and Power BI visualizations to deliver a complete end-to-end financial analysis pipeline.
@@ -9,7 +9,7 @@ Note: Signals in this project are not financial advices. Trade at your own risk.
 
 ---
 
-## 🎯 Goals
+##  Goals
 
 - Analyze historical Bitcoin prices across multiple timeframes.
 - Calculate and visualize widely-used technical indicators.
@@ -19,7 +19,7 @@ Note: Signals in this project are not financial advices. Trade at your own risk.
 
 ---
 
-## 🧰 Tools & Technologies
+##  Tools & Technologies
 
 - **Languages**: Python (Pandas, NumPy, Matplotlib, Seaborn, TA-Lib, ML models(scikit-learn, XGBoost), Power BI)
 - **Data Format**: Parquet files (multiple timeframes)
@@ -27,7 +27,7 @@ Note: Signals in this project are not financial advices. Trade at your own risk.
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 Bitcoin_Price_Analysis/
@@ -40,14 +40,14 @@ Bitcoin_Price_Analysis/
 
 ---
 
-## 📊 Technical Indicators Used
+##  Technical Indicators Used
 
 This analysis applies the following indicators:
 
 ### 1. **Simple & Exponential Moving Averages**
 - `SMA_20`, `SMA_50`, `SMA_100`, `SMA_200`
 - `EMA_20`, `EMA_50`, `EMA_100`, `EMA_200`
-- 📈 Used to identify trend direction and momentum shifts.
+-  Used to identify trend direction and momentum shifts.
 
 ### 2. **RSI (Relative Strength Index)**
 - `RSI_14` with overbought/oversold detection
@@ -67,25 +67,25 @@ This analysis applies the following indicators:
 
 ---
 
-## 📈 Volatility & Return Metrics
+##  Volatility & Return Metrics
 
-### ✅ Return Calculations:
+###  Return Calculations:
 - **Daily Return**: `Close.pct_change()`
 - **Cumulative Return**: `(1 + Daily_Return).cumprod()`
 
-### ✅ Volatility:
+###  Volatility:
 - **14-day Rolling Volatility** using standard deviation of returns
 - **Categorization**:
   - Very Stable, Stable, Normal, High, Extreme
 
-### ✅ Other Metrics:
+###  Other Metrics:
 - **High-Low Spread**: Measures intraday volatility
 - **Typical Price**: `(High + Low + Close) / 3`
 - **Volume Profile** (planned for Power BI)
 
 ---
 
-## 📊 Visual Strategies Implemented
+##  Visual Strategies Implemented
 
 - SMA/EMA Golden/Death crosses
 - MACD histogram shaded by momentum polarity
@@ -95,7 +95,7 @@ This analysis applies the following indicators:
 ---
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 Download Dataset from Kaggle: https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
 Clone the repo and run the notebooks: (Need to change path to dataset)
@@ -109,7 +109,7 @@ jupyter notebook
 
 ---
 
-## 🖼 Sample Visuals
+##  Sample Visuals
 
 ![SMA/EMA-Golden and Death Crosses](Images/SMA-EMA-Cross.png)
 ![Bollinger Bands](Images/BollingerBands.png)
@@ -118,7 +118,7 @@ jupyter notebook
 
 ---
 
-## 🖼 Backtesting
+##  Backtesting
 
 Assumptions:
 - Capital: $100,000 initial
@@ -126,6 +126,7 @@ Assumptions:
 - Entry on next candle after signal
 - Exit on next opposite signal
 - No slippage or fees (for simplicity)
+- Tested over 2-year period from April 2023 to April 2025
 
 ![Results](Images/Total-Return-Strategy.png)
 
@@ -135,7 +136,7 @@ Assumptions:
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
 
