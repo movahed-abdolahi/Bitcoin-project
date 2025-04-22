@@ -1,0 +1,21 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.env
+.venv/
+*.env
+
+# Parquet, CSV, large datasets
+*.parquet
+*.csv
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
