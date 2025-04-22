@@ -118,6 +118,23 @@ jupyter notebook
 
 ---
 
+## 🖼 Backtesting
+
+Assumptions:
+- Capital: $100,000 initial
+- Trade Size: 100% capital (no compounding, 1 position at a time)
+- Entry on next candle after signal
+- Exit on next opposite signal
+- No slippage or fees (for simplicity)
+
+![Results](Images/Total-Return-Strategy.png)
+
+- Best performing: SMA/EMA crossovers
+- Worst performing: Bollinger Band Bounce
+
+
+---
+
 ## 📜 License
 
 MIT License
