@@ -3,9 +3,9 @@
 ## 🧠 Project Overview
 
 This project explores the price dynamics of Bitcoin using Python. It aims to understand short- and long-term market behavior through a wide range of technical indicators and volatility metrics. This analysis helps reveal potential entry/exit signals and assess overall market sentiment and risk.
-
 Future stages will include machine learning-based forecasting and Power BI visualizations to deliver a complete end-to-end financial analysis pipeline.
 Note: Signals in this project are not financial advices.
+
 ---
 
 ## 🎯 Goals
@@ -100,8 +100,8 @@ Download Dataset from Kaggle: https://www.kaggle.com/datasets/mczielinski/bitcoi
 Clone the repo and run the notebooks: (Need to change path to dataset)
 
 ```bash
-git clone https://github.com/your-username/bitcoin-price-analysis.git
-cd bitcoin-price-analysis
+git clone https://github.com/movahed-abdolahi/Bitcoin-project.git
+cd Bitcoin-project
 pip install -r requirements.txt
 jupyter notebook
 ```
@@ -110,10 +110,10 @@ jupyter notebook
 
 ## 🖼 Sample Visuals
 
-![SMA/EMA-Golden and Death Crosses](images/SMA-EMA-Cross.png)
-![Bollinger Bands](images/BollingerBands.png)
-![RSI + Bollinger Bands](images/RSI-BollingerBands.png)
-![MACD](images/MACD.png)
+![SMA/EMA-Golden and Death Crosses](Images/SMA-EMA-Cross.png)
+![Bollinger Bands](Images/BollingerBands.png)
+![RSI + Bollinger Bands](Images/RSI-BollingerBands.png)
+![MACD](Images/MACD.png)
 
 ---
 
