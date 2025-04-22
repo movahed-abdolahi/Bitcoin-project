@@ -1,4 +1,4 @@
-#  Bitcoin Price Analysis with Python
+#  Bitcoin Price Analysis
 
 ##  Project Overview
 
