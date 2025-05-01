@@ -31,11 +31,27 @@ Note: Nothing in this project is financial advice and is only implemented for re
 
 ```
 Bitcoin_Price_Analysis/
-├── data/                # Raw & processed data (parquet)
+├── data/                # Raw & processed data (csv and parquet)
 ├── notebooks/           # Jupyter Notebooks
 ├── images/              # Strategy plots & screenshots
 ├── requirements.txt     # Python packages used
 └── README.md            # Project documentation
+
+Bitcoin_derivatives/
+├── output/              # Processed data (csv and parquet)
+├── notebooks/           # Jupyter Notebooks
+└── utils/               # scripts
+
+Bitcoin_sentiments/
+├── outputs/             # Raw & processed data (csv and parquet)
+├── notebooks/           # Jupyter Notebooks
+├── requirements.txt     # Python packages used
+└── utils/               # scripts
+
+ml_models/
+├── input-output/        # Raw & processed data (csv and parquet)
+├── notebooks/           # Jupyter Notebooks
+└── requirements.txt     # Python packages used
 ```
 
 ---
@@ -98,7 +114,7 @@ This analysis applies the following indicators:
 ##  Getting Started
 
 Download Dataset from Kaggle: https://www.kaggle.com/datasets/mczielinski/bitcoin-historical-data
-Clone the repo and run the notebooks: (Need to change path to dataset)
+Clone the repo and run the notebooks: (Need to change paths carefully to dataset and send results as input of the next stage)
 
 ```bash
 git clone https://github.com/movahed-abdolahi/Bitcoin-project.git
@@ -111,10 +127,12 @@ jupyter notebook
 
 ##  Sample Visuals
 
-![SMA/EMA-Golden and Death Crosses](Bitcoin_Price_Analysis/Images/SMA-EMA-Cross.png)
-![Bollinger Bands](Bitcoin_Price_Analysis/Images/BollingerBands.png)
-![RSI + Bollinger Bands](Bitcoin_Price_Analysis/Images/RSI-BollingerBands.png)
-![MACD](Bitcoin_Price_Analysis/Images/MACD.png)
+![SMA/EMA-Golden and Death Crosses](Bitcoin_historical_indicators/images/SMA-EMA-Cross.png)
+![Bollinger Bands](Bitcoin_historical_indicators/images/BollingerBands.png)
+![RSI + Bollinger Bands](Bitcoin_historical_indicators/images/RSI-BollingerBands.png)
+![MACD](Bitcoin_historical_indicators/images/MACD.png)
+
+
 
 ---
 
@@ -128,10 +146,25 @@ Assumptions:
 - No slippage or fees (for simplicity)
 - Tested over 2-year period from April 2023 to April 2025
 
-![Results](Bitcoin_Price_Analysis/Images/Total-Return-Strategy.png)
+![Results](Bitcoin_historical_indicators/images/Total-Return-Strategy.png)
 
 - Best performing: SMA/EMA crossovers
 - Worst performing: Bollinger Band Bounce
+
+
+---
+
+##  ML Results
+
+
+Predicting last 30 days of dataset and forecasting one day after:
+  MSE: 11469354.4598
+  MAE: 2808.0343
+  R² : 0.6052
+![XGBoost prediction](ml_models/images/XGBoost.jpg)
+
+Predicting last 30 days of dataset:
+![TCN prediction](ml_models/images/TCN.jpg)
 
 
 ---

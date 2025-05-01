@@ -1,0 +1,14 @@
+pandas
+scikit-learn
+numpy
+seaborn
+requests
+beautifulsoup4
+feedparser
+transformers
+torch
+tqdm
+pyarrow
+fastparquet
+tensorflow
+keras
