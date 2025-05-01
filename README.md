@@ -111,10 +111,10 @@ jupyter notebook
 
 ##  Sample Visuals
 
-![SMA/EMA-Golden and Death Crosses](Images/SMA-EMA-Cross.png)
-![Bollinger Bands](Images/BollingerBands.png)
-![RSI + Bollinger Bands](Images/RSI-BollingerBands.png)
-![MACD](Images/MACD.png)
+![SMA/EMA-Golden and Death Crosses](Bitcoin_Price_Analysis/Images/SMA-EMA-Cross.png)
+![Bollinger Bands](Bitcoin_Price_Analysis/Images/BollingerBands.png)
+![RSI + Bollinger Bands](Bitcoin_Price_Analysis/Images/RSI-BollingerBands.png)
+![MACD](Bitcoin_Price_Analysis/Images/MACD.png)
 
 ---
 
@@ -128,7 +128,7 @@ Assumptions:
 - No slippage or fees (for simplicity)
 - Tested over 2-year period from April 2023 to April 2025
 
-![Results](Images/Total-Return-Strategy.png)
+![Results](Bitcoin_Price_Analysis/Images/Total-Return-Strategy.png)
 
 - Best performing: SMA/EMA crossovers
 - Worst performing: Bollinger Band Bounce
