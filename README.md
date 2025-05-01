@@ -5,7 +5,7 @@
 This project explores the price dynamics of Bitcoin using Python. It aims to understand short- and long-term market behavior through a wide range of technical indicators and volatility metrics. This analysis helps reveal potential entry/exit signals and assess overall market sentiment and risk.
 First part includes cleaning historical data and keep the required columns and then building various indicators on top of the historical data which is done by Excel and Python. Second part includes machine learning (ML) based forecasting using XGBoost and TCN 2 famous ML models. Third and final part will be Power BI interactive visualizations to deliver a complete end-to-end financial analysis pipeline.
 
-Note: Nothing in this project is financial advice and is only implemented for testing purposes.
+Note: Nothing in this project is financial advice and is only implemented for research purposes.
 
 ---
 
@@ -14,15 +14,15 @@ Note: Nothing in this project is financial advice and is only implemented for te
 - Analyze historical Bitcoin prices across multiple timeframes.
 - Calculate and visualize widely-used technical indicators.
 - Assess volatility, return patterns, and trading signals.
-- Lay the groundwork for predictive modeling (coming soon).
+- Machine learning (ML) based forecasting using XGBoost (regression) and TCN (tensorflow and keras).
 - Design an interactive Power BI dashboard (coming soon).
 
 ---
 
 ##  Tools & Technologies
 
-- **Languages**: Python (Pandas, NumPy, Matplotlib, Seaborn, TA-Lib, ML models(scikit-learn, XGBoost), Power BI)
-- **Data Format**: Parquet files (multiple timeframes)
+- **Languages**: Python (Pandas, NumPy, Matplotlib, Seaborn, TA-Lib, ML(scikit-learn, XGBoost, Tensorflow, Keras), Power BI
+- **Data Format**: CSV and Parquet files (multiple timeframes)
 - **Visualization**: Matplotlib, Seaborn
 
 ---
