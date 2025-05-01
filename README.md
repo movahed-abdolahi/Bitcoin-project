@@ -158,13 +158,15 @@ Assumptions:
 ##  ML Results
 
 
-Predicting last 30 days of dataset and forecasting one day after:
+- Predicting last 30 days of dataset and forecasting one day after:
   MSE: 11469354.4598
   MAE: 2808.0343
   R² : 0.6052
+  
 ![XGBoost prediction](ml_models/images/XGBoost.jpg)
 
-Predicting last 30 days of dataset:
+- Predicting last 30 days of dataset:
+
 ![TCN prediction](ml_models/images/TCN.jpg)
 
 
