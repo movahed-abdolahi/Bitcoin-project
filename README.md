@@ -24,6 +24,7 @@ Note: Nothing in this project is financial advice and is only implemented for re
 - **Languages**: Python (Pandas, NumPy, Matplotlib, Seaborn, TA-Lib, ML(scikit-learn, XGBoost, Tensorflow, Keras), Power BI
 - **Data Format**: CSV and Parquet files (multiple timeframes)
 - **Visualization**: Matplotlib, Seaborn
+- **More sources**: Binance news(api), alternative(api), coinalyze(api)
 
 ---
 
